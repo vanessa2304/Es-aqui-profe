@@ -1,0 +1,117 @@
+/**Aqui va el diseño de Encabezado*/
+body {
+  font-style: italic;
+  margin: 0;
+  color: #000000;
+  background-color: #eac3fc;
+  text-align: left;
+}
+
+#encabezado {
+  background-color: #000000;
+  color: rgb(250, 186, 239);
+  padding: 5px 10%;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(248, 248, 248);
+  border-bottom-width: 4px;
+}
+#encabezado h1{
+  text-align:right;
+  font-size: 30px;
+}
+#logo {
+  width: 145px;
+  height: 141px;
+}
+
+@media screen and (max-width: 695px) {
+  #encabezado {
+    padding: 10px 10px;
+    text-align:center;
+  }
+}
+@media screen and (max-width: 566px) {
+  #encabezado {
+    text-align:center;
+  }
+  #redes-sociales {
+    display: none;
+  }
+  
+}
+
+#encabezado a {
+  text-decoration: none;
+}
+
+#encabezado h1 {
+  display: inline-block;
+  margin: 0;
+}
+
+
+#redes-sociales {
+  float: right;
+  padding-top: 15px;
+  padding: 1em 15%;
+}
+
+#redes-sociales img {
+  width: 40px;
+  transition: 0.5s;
+}
+
+#redes-sociales img:hover{
+  filter: invert(100%);
+  transition: 0.25s;
+}
+
+div#redes-sociales a {
+  margin-left: 25px;
+}
+
+
+/**contenido principal*/
+.Personajes{
+  display: inline-block;
+  border-style: solid;
+  border-radius: 15px;
+  margin: 10px;
+  border-color: #ffffff;
+}
+.Personajes img{
+  width: 400px;
+  height: 500px;
+}
+.Personajes h3{
+  text-align: center;
+}
+div.Personajes#seleccionado, div.Personajes:hover {
+  border-color: #ab6ee4;
+  color: #ffffff;
+  transition: 0.5s;
+}
+#Contenido {
+  padding: 3em 15%;
+}
+/**contedido de vistas*/
+p{
+  color: #6967fd;
+  text-align: justify;
+}
+
+/**pien de pagina*/
+#pie-pagina{
+  background-color: #020202;
+  padding: 20px 10%;
+  border-top-style: solid;
+  border-top-color: rgb(248, 248, 248);
+  border-top-width: 4px;
+}
+#pie-pagina p{
+  text-align: center;
+  color: #f0a7ff;;
+}
+
+
+
